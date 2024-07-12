@@ -4,7 +4,6 @@ import styles from "./App.module.css";
 import BusinessList from "../BusinessList/BusinessList";
 import SearchBar from "../SearchBar/SearchBar";
 
-
 const business = {
   imageSrc:
     "https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
@@ -18,14 +17,14 @@ const business = {
   reviewCount: 90,
 };
 
-const bList = [business,business,business,business,business,business];
+const businesses = [business, business, business, business, business, business];
 
 const App = () => {
   return (
     <div className={styles.App}>
       <h1>ravenous</h1>
       <SearchBar />
-      <BusinessList businessList={bList}/>
+      <BusinessList businesses={businesses} />
     </div>
   );
 };
