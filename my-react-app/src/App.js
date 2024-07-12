@@ -8,6 +8,9 @@ import GroceryCart from "./GroceryCart/GroceryCart";
 import EditProfile from './Profile/EditProfile';
 import AppFunction from './AddNewTask/Container/AppFunction';
 import State from './State';
+import GuineaPigsContainer from './GuineaPigsContainer/GuineaPigsContainer';
+import VideoPlay from './VideoPlay/VideoPlay';
+
 function App(){
   // const card = comments.map(c=> <Card commentObject={c}/>);
 
@@ -31,7 +34,14 @@ function App(){
 
 
       {/* State props */}
-      <State/>
+      {/* <State/> */}
+
+
+      {/* GuineaPigs Container */}
+      {/* <GuineaPigsContainer /> */}
+
+      {/* Video Play */}
+      <VideoPlay />
     </>
   )
 }
